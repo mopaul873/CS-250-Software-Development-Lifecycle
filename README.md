@@ -1,11 +1,44 @@
-# CS-250-Software-Development-Lifecycle
-Portfolio repository for CS-250 Software Development Lifecycle, including Agile/Scrum project work and reflections
+# Agile Scrum Project: Software Development Lifecycle (CS 250)
 
-.
+A sprint review and retrospective from the **SNHU Travel** project, where I worked through each Scrum role (Product Owner, Scrum Master, Developer, and Tester) to deliver features in short, iterative sprints.
 
-# CS-250 Software Development Lifecycle
+Built for **CS 250: Software Development Lifecycle** at Southern New Hampshire University.
 
-This repository contains work from CS-250 Software Development Lifecycle. The course focused on Agile and Scrum practices and how they can be applied throughout the software development life cycle. The Sprint Review and Retrospective included in this repository reflects on my experience working through different Scrum roles during the SNHU Travel project.
+---
+
+## The Scrum Process
+
+```mermaid
+flowchart LR
+    PB[Product backlog<br/>user stories] --> SP[Sprint planning]
+    SP --> S[Sprint<br/>build and test]
+    S --> DS{Daily<br/>stand-up}
+    DS --> S
+    S --> SR[Sprint review<br/>demo to stakeholders]
+    SR --> RT[Retrospective<br/>what to improve]
+    RT -->|feedback| PB
+```
+
+## Roles I Worked Through
+
+| Role | Responsibility |
+|---|---|
+| **Product Owner** | Sets direction, writes and prioritizes user stories |
+| **Scrum Master** | Keeps the team focused and removes obstacles |
+| **Developer** | Builds the features described in the user stories |
+| **Tester** | Writes test cases from acceptance criteria and protects quality |
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| [Sprint-Review-and-Retrospective.docx](Sprint-Review-and-Retrospective.docx) | Sprint review and retrospective for the SNHU Travel project |
+
+## Skills Demonstrated
+
+Agile and Scrum · user stories and acceptance criteria · sprint planning and retrospectives · cross-role collaboration
+
+---
 
 ## Reflection
 
